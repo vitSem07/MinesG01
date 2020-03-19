@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/css/main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mine</title>
+</head>
+
+<body onload="initGame()">
+    <div class="modal" ></div>
+    
+    <div class="topMenu" oncontextmenu="return false"><table border="1"><tbody><tr><td onclick="easy()" class="menuLVL">Easy</td>
+        <td onclick="medium()" class="menuLVL">Medium</td>
+        <td onclick="hard()"  class="menuLVL">Hard</td></tr><tr><td class="timer">0</td>
+            <td class="menuLVL">safe</td></tr></tbody></table></div>
+
+    <div class="bottomMenu" oncontextmenu="return false"></div>
+    <div class="board" oncontextmenu="return false"></div>
+
+    <script src="/js/game.js"></script>
+</body>
+
+</html>

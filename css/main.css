@@ -1,0 +1,76 @@
+.board {
+    /* margin-left: 200px; */
+    margin-top: 145px;
+    position: absolute;
+
+
+
+}
+.bottomMenu table{
+    margin-top: 110px;
+    position: absolute;
+    border-top-style: none;
+}
+.shown {
+
+    background-color: lightpink;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.cell {
+    background-color: gray;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+.marked {
+    background-color: maroon;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+
+
+
+.menuCell {
+    background-color: grey;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.life {
+    background-color: crimson;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+    
+}
+.hint {
+    background-color: royalblue;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.smiley {
+    background-color: yellow;
+    height: 25px;
+    width: 25px;
+    text-align: center;
+}
+.topMenu table{
+    background-color: lightcoral;
+    text-align: center;
+    color: lavenderblush;
+    position: absolute;
+    margin-top: 60px;
+    width: 300px;
+    height: 30px;
+    border: 1px;
+    border-top-style: none;
+}
+.modal{
+    background-color: lightcoral;
+}
